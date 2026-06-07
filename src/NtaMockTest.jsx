@@ -156,7 +156,7 @@ export default function NtaMockTest() {
   };
 
   return (
-    <div className="min-h-screen bg-gray-100 flex flex-col font-sans select-none">
+    <div style={{ backgroundColor: '#111827', color: '#ffffff', minHeight: '100vh', padding: '16px' }}>
       {/* Top Banner Header Layout */}
       <header className="bg-[#0f4c81] text-white p-3 flex justify-between items-center shadow-md">
         <div>
